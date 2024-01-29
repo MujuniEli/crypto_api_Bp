@@ -14,6 +14,9 @@ const navbar = () => {
             </Typography.Title>
             {/* <Button className='menu-control-container'></Button> */}
         </div>
+        <Menu theme='dark'>
+
+        </Menu>
     </div>
   )
 }
