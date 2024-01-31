@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
 import icon from '../images/cryptocurrency.png'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className='nav-container'>
         <div className='logo-container'>
@@ -32,4 +32,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar;
